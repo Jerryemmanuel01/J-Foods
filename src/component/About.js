@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from "../images/images02.jpg";
+import AboutImage from "../assets/images/images02.jpg";
 export default function About() {
     return (
       <div className="about--section">

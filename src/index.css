@@ -6,7 +6,7 @@
 .hero--section {
   width: 100%;
   height: 90vh;
-  background: rgba(0, 0, 0, 0.5) url(../public/assets/images01.jpeg);
+  background: rgba(0, 0, 0, 0.5) url(../public/images01.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -75,10 +75,13 @@
 }
 
 
+/* -----------------ABOUT COMPONENT---------- */
+
+
 .about--section{
     margin-top: 3rem;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,7 +101,7 @@
     height: 280px;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0px 0px 7px var(--darkgray);
+    box-shadow: 0px 0px 7px gray;
 }
 .about--img{
     width: 100%;
@@ -119,4 +122,86 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 0.3rem;
     margin-bottom: 2.5rem;
+}
+
+
+/* -----------------MENU COMPONENT-------------- */
+
+.menu--section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu--head{
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid black;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+.menu--body{
+    display: flex;
+    width: auto;
+    height: auto;
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 2rem;
+
+    /* @media (min-width: 400px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    @media (min-width: 600px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3rem;
+
+        .menu--img--div{
+            width: 250px;
+            height: 200px;
+            overflow: hidden;
+        }
+    }
+    @media (min-width: 800px) {
+        grid-template-columns: repeat(2, 1fr);
+        width: 700px;
+    } */
+
+}
+.menu--card{
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 5px;
+justify-content: center;
+
+}
+.menu--img--div{
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px gray;
+}
+.menu--foodImg{
+    width: 100%;
+    height: 100%;
+}
+.menu--txt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.food--name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.food--txt{
+    font-size: 12px;
+}
+.food--price{
+    font-weight: bold;
 }
