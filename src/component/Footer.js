@@ -10,6 +10,7 @@ import {
 export default function Footer() {
   return (
     <div className="footer--section">
+      <div className="id--links" id="Contact"></div>
       <div className="footer--body">
         <div className="footer--sec1">
           <div className="footer--socials">

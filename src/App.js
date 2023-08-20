@@ -12,7 +12,9 @@ export default function App() {
     <>
       <Navbar />
       <Home />
+      
       <About />
+      
       <Menu />
       <Reservation />
       <Footer />

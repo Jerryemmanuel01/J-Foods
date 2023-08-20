@@ -14,15 +14,11 @@ export default function Menu(props) {
       );
     });
   return (
-    
-    
     <div className="menu--section">
-        
+      <div className="id--links" id="Menu"></div>
       <h3 className="menu--head">Our Menu</h3>
 
-      <div className="menu--body">
-        {foodItems}
-      </div>
+      <div className="menu--body">{foodItems}</div>
     </div>
   );
 }

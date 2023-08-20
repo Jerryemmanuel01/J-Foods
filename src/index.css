@@ -14,20 +14,58 @@
   background-blend-mode: darken;
 }
 .nav--section{
-    
+  background-color: #927272;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .nav {
   width: 100%;
-  height: 3.5rem;
-  background-color: rgba(0, 0, 0, 0.6);
+  height: 4rem;
   color: white;
   font-size: 2rem;
   display: flex;
-  justify-content: center;
   align-items: center;
-  box-shadow: 0px 3px 5px rgb(77, 62, 62);
-  position: sticky;
-  top: 0;
+}
+.nav--site--name>a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav--main{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;  
+    box-shadow: 0px 3px 5px rgb(77, 62, 62);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0px 2rem;
+}
+.checkbtn{
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.navbar--nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.navlink{ 
+    list-style: none;
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.navlink:hover{
+    color: #927272;
+}
+.navlink:active{
+    color: #5c4545;
 }
 
 .hero--body {
@@ -77,13 +115,16 @@
 .order{
     margin-right: 1rem;
 }
-
+.id--links{
+    /* display: hidden; */
+    margin-bottom: 5rem;
+}
 
 /* -----------------ABOUT COMPONENT---------- */
 
 
 .about--section{
-    margin: 3rem 0px;
+    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -124,7 +165,7 @@
 .about--txt--body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 0.3rem;
-    margin-bottom: 2.5rem;
+    /* margin-bottom: 2.5rem; */
 }
 
 
@@ -137,7 +178,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 .menu--head{
     font-size: 1.8rem;
@@ -370,10 +411,47 @@ input{
 
 
 
+@media screen and (max-width: 750px) {
+    .checkbtn{
+        color: #fff;
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        z-index: 10;
+    }
+    .nav--main{
+        display: block;
+    }
+    .navbar--nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+        margin:0;
+        top: -100rem;
+        left: 0;
+        transition: all 400ms ease;
+        width: 100%;
+        height: 100vh;
+        background:  #3b2e2e;
+    }
+    #check:checked ~ ul{
+        top:0px;
+    }
+    .navlink{
+        margin-top: 50px;
+    }
+}
+
 @media screen and (min-width: 750px) {
     .hero--head{
         font-size: 3.5rem;
     }
+    
+
     .about--body{
         display: flex;
         flex-direction: row;

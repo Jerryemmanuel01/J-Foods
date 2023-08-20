@@ -6,9 +6,10 @@ export default function Reservation() {
     const [selectedDate, setSelectedDate] = useState(null);
   return (
     <div className="reservation--section">
+      <div className="id--links" id="Reservation"></div>
       <h3 className="reservation--head menu--head">Reservation</h3>
 
-      <form  className="reservation--form">
+      <form className="reservation--form">
         <div className="form--row">
           <div className="">
             <label className="form--label">Date</label> <br />
@@ -18,7 +19,7 @@ export default function Reservation() {
               minDate={new Date()}
               showYearDropdown
               scrollableMonthYearDropdown
-              dateFormat = 'dd/MM/yyyy'
+              dateFormat="dd/MM/yyyy"
             />
           </div>
           <div className="">
@@ -45,7 +46,7 @@ export default function Reservation() {
           </div>
         </div>
         <div className="form--row single">
-          <label htmlFor="">People</label> 
+          <label htmlFor="">People</label>
           <select name="" id="">
             <option></option>
             <option value="">1 person</option>
@@ -81,12 +82,19 @@ export default function Reservation() {
 
         <div className="form--row single">
           <label htmlFor="">Comments (optional)</label>
-          <textarea name="" id="" cols="30" rows="5" placeholder="Add comments here"></textarea>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            placeholder="Add comments here"
+          ></textarea>
         </div>
         <div className="form--row single">
-            <button type="submit" className="submit">Book a table</button>
+          <button type="submit" className="submit">
+            Book a table
+          </button>
         </div>
-
       </form>
     </div>
   );
