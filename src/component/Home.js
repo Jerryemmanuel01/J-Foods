@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar';
 
 export default function Home() {
   return (
     <div className="hero--section">
-      <div className="nav">J-FOODS</div>
+      
+      
       <div className="hero--body">
         <div className="hero--head">
           <span className='welcome'>Welcome to </span>

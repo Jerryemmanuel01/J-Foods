@@ -74,21 +74,43 @@ export default function Footer() {
         </div>
 
         <div className="footer--sec2">
-          <h3 className="contactUs--head">Contact Us</h3>
-          <form>
-            <div className="footer--input--div">
-              <input type="text" name="" id="" placeholder="Full name" className="footer--input"/>
-            </div>
-            <div className="footer--input--div">
-              <input type="text" name="" id="" placeholder="Email" className="footer--input"/>
-            </div>
-            <div className="footer--input--div">
-              <textarea name="" id="" cols="30" rows="4" placeholder="Message"/>
-            </div>
-            <div className="footer--input--div">
-              <button type="submit" className="contactUs-btn">Submit</button>
-            </div>
-          </form>
+          <div className="contact--us-sec">
+            <h3 className="contactUs--head">Contact Us</h3>
+            <form>
+              <div className="footer--input--div">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Full name"
+                  className="footer--input"
+                />
+              </div>
+              <div className="footer--input--div">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Email"
+                  className="footer--input"
+                />
+              </div>
+              <div className="footer--input--div">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="4"
+                  placeholder="Message"
+                />
+              </div>
+              <div className="footer--input--div">
+                <button type="submit" className="contactUs-btn">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
       <div className="footer-copyright">
