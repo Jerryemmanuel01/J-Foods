@@ -4,6 +4,7 @@ import Home from "./component/Home";
 import About from './component/About';
 import Menu from './component/Menu';
 import FoodData from './assets/FoodData';
+import Reservation from './component/Reservation';
 
 export default function App() {
     
@@ -13,6 +14,7 @@ export default function App() {
         <Home />
         <About />
         <Menu />
+        <Reservation />
       </>  
     
     );
