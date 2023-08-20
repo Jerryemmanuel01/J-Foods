@@ -3,8 +3,8 @@ import "./index.css";
 import Home from "./component/Home";
 import About from './component/About';
 import Menu from './component/Menu';
-import FoodData from './assets/FoodData';
 import Reservation from './component/Reservation';
+import Footer from './component/Footer';
 
 export default function App() {
     
@@ -15,6 +15,7 @@ export default function App() {
         <About />
         <Menu />
         <Reservation />
+        <Footer />
       </>  
     
     );

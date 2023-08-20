@@ -4,7 +4,6 @@ import 'react-datepicker/dist/react-datepicker.css';
 
 export default function Reservation() {
     const [selectedDate, setSelectedDate] = useState(null);
-    const [selectTime, setSelectTime] = useState(null);
   return (
     <div className="reservation--section">
       <h3 className="reservation--head menu--head">Reservation</h3>
@@ -17,6 +16,9 @@ export default function Reservation() {
               selected={selectedDate}
               onChange={(date) => setSelectedDate(date)}
               minDate={new Date()}
+              showYearDropdown
+              scrollableMonthYearDropdown
+              dateFormat = 'dd/MM/yyyy'
             />
           </div>
           <div className="">
