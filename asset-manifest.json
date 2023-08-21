@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/J-Foods/static/css/main.0dcbe574.css",
-    "main.js": "/J-Foods/static/js/main.f9f3ee56.js",
+    "main.js": "/J-Foods/static/js/main.d3df81cc.js",
     "static/media/donutsImg.jpg": "/J-Foods/static/media/donutsImg.bcad0e47f32d133673c9.jpg",
     "static/media/images01.jpeg": "/J-Foods/static/media/images01.7abda40f315bd56cf929.jpeg",
     "static/media/images02.jpg": "/J-Foods/static/media/images02.421b63c46d973a91e857.jpg",
@@ -15,10 +15,10 @@
     "static/media/JellofriceImg.jpg": "/J-Foods/static/media/JellofriceImg.434350b87511b83e42bb.jpg",
     "index.html": "/J-Foods/index.html",
     "main.0dcbe574.css.map": "/J-Foods/static/css/main.0dcbe574.css.map",
-    "main.f9f3ee56.js.map": "/J-Foods/static/js/main.f9f3ee56.js.map"
+    "main.d3df81cc.js.map": "/J-Foods/static/js/main.d3df81cc.js.map"
   },
   "entrypoints": [
     "static/css/main.0dcbe574.css",
-    "static/js/main.f9f3ee56.js"
+    "static/js/main.d3df81cc.js"
   ]
 }
