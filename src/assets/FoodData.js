@@ -57,18 +57,4 @@ export default [
     Fooddiscription: "available",
     Foodprice: "20",
   },
-  {
-    id: 8,
-    FoodImg: require("../assets/images/donutsImg.jpg"),
-    Foodname: "Donuts",
-    Fooddiscription: "available",
-    Foodprice: "20",
-  },
-  {
-    id: 8,
-    FoodImg: require("../assets/images/donutsImg.jpg"),
-    Foodname: "Donuts",
-    Fooddiscription: "available",
-    Foodprice: "20",
-  },
 ];
