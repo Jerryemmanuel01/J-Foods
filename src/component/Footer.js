@@ -52,22 +52,22 @@ export default function Footer() {
           <div className="footer--site--links">
             <h3 className="footer--nav">Navigation</h3>
             <div className="footer--link--div">
-              <a href="#" className="footer--link">
+              <a href="#Home" className="footer--link">
                 <span className="footer--link--bullet">&#62;</span> Home
               </a>
             </div>
             <div className="footer--link--div">
-              <a href="#" className="footer--link">
+              <a href="#About" className="footer--link">
                 <span className="footer--link--bullet">&#62;</span> About Us
               </a>
             </div>
             <div className="footer--link--div">
-              <a href="#" className="footer--link">
+              <a href="#Menu" className="footer--link">
                 <span className="footer--link--bullet">&#62;</span> Our Menu
               </a>
             </div>
             <div className="footer--link--div">
-              <a href="#" className="footer--link">
+              <a href="#Reservation" className="footer--link">
                 <span className="footer--link--bullet">&#62;</span> Reservation
               </a>
             </div>
